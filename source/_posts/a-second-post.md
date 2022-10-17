@@ -1,7 +1,7 @@
 --- 
 title: A Second POst
 author: ToffeeMax
-date: 2022-10-17 00:00
+date: 2022-10-17 00:00:00
 excerpt: Weird This
 tags:
 ---

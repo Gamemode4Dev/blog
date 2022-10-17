@@ -4,4 +4,4 @@ author: ToffeeMax
 date: 2022-10-17
 ---
 
-Welcome, this blog is something. Who knows what.
+Welcome, this blog is something. Who knows what. Maybe there will be magic?

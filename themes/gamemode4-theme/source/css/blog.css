@@ -1,0 +1,275 @@
+/*
+ * Globals
+ */
+
+body {
+    font-family: "Roboto Mono",Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    margin-top: 0;
+    font-family: "Roboto Mono",Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+   
+}
+
+img {
+    margin-top: 0;
+    width: 90%;
+
+}
+
+@media only screen and (max-width: 1026px)  {
+    .sidebar-module {
+        display:none;
+
+    }
+}
+
+
+/*
+ * Masthead for nav
+ */
+
+
+ 
+
+.blog-masthead {
+    background: linear-gradient(116deg, #b8b8b8, #4aa0c7);
+    background-size: 400% 400%;
+    box-shadow: linear-gradient(116deg, #b8b8b8,#4aa0c7);
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+
+/* Nav links */
+.blog-nav-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 600;
+    color: #cdddeb;
+    font-size: 1.5em;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+    color: #fff;
+}
+.blog-nav .active:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-left: 5px solid transparent;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.blog-title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+.blog-description {
+    font-size: 20px;
+    color: #999;
+}
+
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+    padding: 15px;
+    margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+    margin-bottom: 60px;
+    text-align: left;
+}
+.pager > li > a {
+    width: 140px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+    margin-bottom: 60px;
+}
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 20px;
+    position:relative;
+}
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+}
+
+.blog-article-excerpt {
+    font-size: 18px;
+
+}
+
+
+
+
+
+@keyframes vibrate-1 {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(-2px, 2px);
+    }
+    40% {
+      transform: translate(-2px, -2px);
+    }
+    60% {
+      transform: translate(2px, 2px);
+    }
+    80% {
+      transform: translate(2px, -2px);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+
+  @keyframes swing-top-fwd {
+    0% {
+      transform: rotateX(0);
+      transform-origin: top;
+    }
+    100% {
+      transform: rotateX(180deg);
+      transform-origin: top;
+    }
+  }
+  
+
+  .blog-article-excerpt:hover {
+    animation-name: vibrate-1;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+
+
+ }
+
+ 
+.code {
+    display: block;
+    overflow-x: auto;
+}
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+.blog-tags-container, .blog-categories-container {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.blog-tags-container span.glyphicon, .blog-categories-container span.glyphicon {
+    margin-right: 20px;
+}
+
+.blog-post-title-archive {
+    margin-bottom: 5px;
+    font-size: 25px;
+}

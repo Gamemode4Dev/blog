@@ -50,35 +50,6 @@ img {
  * Masthead for nav
  */
 
-
- 
-
-.blog-masthead {
-    background: linear-gradient(116deg, #b8b8b8, #4aa0c7);
-    background-size: 400% 400%;
-    box-shadow: linear-gradient(116deg, #b8b8b8,#4aa0c7);
-
-    -webkit-animation: AnimationName 9s ease infinite;
-    -moz-animation: AnimationName 9s ease infinite;
-    animation: AnimationName 9s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 49%}
-    50%{background-position:100% 52%}
-    100%{background-position:0% 49%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 49%}
-    50%{background-position:100% 52%}
-    100%{background-position:0% 49%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 49%}
-    50%{background-position:100% 52%}
-    100%{background-position:0% 49%}
-}
-
 /* Nav links */
 .blog-nav-item {
     position: relative;

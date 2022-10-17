@@ -2,7 +2,7 @@
  * Globals
  */
 
-body {
+ body {
     font-family: "Roboto Mono",Arial, Helvetica, sans-serif;
     color: #555;
 }
@@ -50,10 +50,13 @@ img {
  * Masthead for nav
  */
 
- .blog-masthead {
-    background-color: #4AA0C7;
-    
- }
+
+ 
+
+.blog-masthead {
+    background: #56bdff;
+
+}
 
 /* Nav links */
 .blog-nav-item {
@@ -170,15 +173,6 @@ img {
     font-size: 18px;
 
 }
-
-  .blog-article-excerpt:hover {
-    animation-name: vibrate-1;
-    animation-duration: 0.3s;
-    animation-iteration-count: infinite;
-
-
- }
-
  
 .code {
     display: block;

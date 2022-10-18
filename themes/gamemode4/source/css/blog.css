@@ -2,8 +2,53 @@
  * Globals
  */
 
+ @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url('https://gm4.co/includes/fonts/raleway-v22-latin-200.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-200.woff') format('woff'), /* Modern Browsers */
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-200.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  
+  /* raleway-regular - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://gm4.co/includes/fonts/raleway-v22-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  
+  /* raleway-700 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('https://gm4.co/includes/fonts/raleway-v22-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('https://gm4.co/includes/fonts/raleway-v22-latin-700.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+
+
  body {
-    font-family: "Roboto Mono",Arial, Helvetica, sans-serif;
+    font-family: "Raleway",Arial, Helvetica, sans-serif;
     color: #555;
 }
 
@@ -14,10 +59,13 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
     margin-top: 0;
-    font-family: "Roboto Mono",Arial, Helvetica, sans-serif;
+    font-family: "Raleway",Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #333;
 }
+
+
+
 
 
 
@@ -49,33 +97,29 @@ img {
 /*
  * Masthead for nav
  */
+.blog-masthead{
+    padding-bottom:10px;
 
-
- 
-
-.blog-masthead {
-    background: #56bdff;
 
 }
-
 /* Nav links */
 .blog-nav-item {
     position: relative;
     display: inline-block;
-    padding: 10px;
-    font-weight: 600;
-    color: #cdddeb;
+    padding: 5px;
+    font-weight: 400;
+    color: black;
     font-size: 1.5em;
 }
 .blog-nav-item:hover,
 .blog-nav-item:focus {
-    color: #fff;
+    color: #777575;
     text-decoration: none;
 }
 
 /* Active state gets a caret at the bottom */
 .blog-nav .active {
-    color: #fff;
+    color:#454545;;
 }
 .blog-nav .active:after {
     position: absolute;
@@ -91,6 +135,12 @@ img {
     border-left: 5px solid transparent;
 }
 
+.blog-nav {
+padding: 10px;
+
+
+}
+
 
 /*
  * Blog name and description
@@ -98,18 +148,41 @@ img {
 
 .blog-header {
     padding-top: 20px;
-    padding-bottom: 20px;
 }
-.blog-title {
-    margin-top: 30px;
-    margin-bottom: 0;
-    font-size: 60px;
-    font-weight: normal;
-}
+
 .blog-description {
     font-size: 20px;
     color: #999;
 }
+
+
+.blog-header-image {
+ order:0;
+ height: 60px;
+ width: 60px;
+ margin: 10px;
+ display:block;
+ float:left;
+
+}
+
+.blog-title {
+    margin-bottom: 2;
+    font-size: 60px;
+    font-weight: normal;
+    order: 10;
+    float:left
+  
+}
+
+.header-flex {
+    display:flex;
+    justify-content:start;
+    flex-direction: row;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
 
 
 
@@ -206,3 +279,8 @@ img {
     margin-bottom: 5px;
     font-size: 25px;
 }
+
+
+p.footer-small {
+    font-size: 0.7em;
+  }

@@ -12,11 +12,16 @@
 
     <!-- Date and Author -->
     <p class="blog-post-meta">
-        <%= item.date.format(config.date_format) %>
         <% if(item.author) { %>
             by <%- item.author %>
         <% } %>
+        <br>
+        <i><%= item.date.format(config.date_format) %></i>
     </p>
+
+        
+
+
 
     <!-- Content -->
     <div class="blog-article-excerpt">

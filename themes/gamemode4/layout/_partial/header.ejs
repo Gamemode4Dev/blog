@@ -1,5 +1,10 @@
 
 <div class="blog-header">
-    <h1 class="blog-title"><a href=<%- config.root%> style="text-decoration: none; color:#000000"><%= config.title %></a></h1>
-    <p class="lead blog-description"><% if (config.subtitle){ %><%= config.subtitle %><% } %></p>
+    <div class="header-flex">
+    <a href=<%- config.root%> style="text-decoration: none; color:#000000">
+    <img class="blog-header-image" src="https://gm4.co/images/logo/logo_clear.svg" alt="Gamemode 4 Logo"/>
+    <h1 class="blog-title"> <%= config.title %></h1>
+    </a>
+    </div>
+    <h2 class="blog-description"><% if (config.subtitle){ %><%= config.subtitle %><% } %></p>
 </div>

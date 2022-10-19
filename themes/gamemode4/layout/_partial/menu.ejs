@@ -1,10 +1,12 @@
 
 <div class="blog-masthead">
-    <div class="container">
+        <div class="nav-container">
         <nav class="blog-nav">
+            <hr class="solid">
             <% for (var i in theme.menu){ %>
                 <a class="blog-nav-item" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
             <% } %>
+            <hr class="solid">
         </nav>
-    </div>
+    </div> 
 </div>

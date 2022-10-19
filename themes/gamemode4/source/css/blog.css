@@ -135,11 +135,6 @@ img {
     border-left: 5px solid transparent;
 }
 
-.blog-nav {
-padding: 10px;
-
-
-}
 
 
 /*
@@ -183,7 +178,15 @@ padding: 10px;
     margin-bottom: 10px;
 }
 
+.container .blog-nav {
+    float:left;
+    padding: inherit;
 
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
 
 
 /*

@@ -151,6 +151,12 @@ img {
     font-weight:300;
 }
 
+.nav-container {
+margin-right: -30;
+
+
+}
+
 
 .blog-header-image {
  order:0;
@@ -177,12 +183,6 @@ img {
     flex-direction: row;
     vertical-align: middle;
     margin-bottom: 10px;
-}
-
-.container .blog-nav {
-    float:left;
-    padding: inherit;
-
 }
 
 hr.solid {

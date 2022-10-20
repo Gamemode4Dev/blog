@@ -1,7 +1,7 @@
 ---
 title: Secrets of Gamemode 4D
 author: ToffeeMax
-date: 2019-11-10 12:00:00
+date: 2019-11-10 12:00
 excerpt: Gamemode 4 is (now) 4 years old. Here are some secrets from its development.
 ---
 

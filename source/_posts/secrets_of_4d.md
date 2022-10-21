@@ -12,7 +12,7 @@ The mega project that was 4D is now 2 years old `(4 years at time of writing)`. 
 ## How did the idea of Dimensions come into being?
 Sparks and Crazyman47_ dreamt up the main concept behind 4D, dimension-hopping, at Minecon 2016. 
 
-Other Gamemode 4 Developers - Bluefire610 (now Bloo___) and SpecialBuilder32 later joined, with moderators helping in the final stage.
+Other Gamemode 4 Developers - `Bloo___` and SpecialBuilder32 later joined, with moderators helping in the final stage.
 ## `What was a bug that caused a lot of issues?`
 Loosing items when transferring between worlds. Due to a design quirk, each dimension had its own player data storage compared to being stored in a central location.
 

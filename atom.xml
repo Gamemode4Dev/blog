@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Gamemode 4 Blog</title>
+  <icon>https://blog.gm4.co/icon.png</icon>
+  <subtitle>Creating Magic with Minecraft Datapacks</subtitle>
+  <link href="https://blog.gm4.co/atom.xml" rel="self"/>
+  
+  <link href="https://blog.gm4.co/"/>
+  <updated>2022-10-21T10:24:51.375Z</updated>
+  <id>https://blog.gm4.co/</id>
+  
+  <author>
+    <name>Gamemode 4</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Welcome to the Blog</title>
+    <link href="https://blog.gm4.co/2022/10/18/welcome/"/>
+    <id>https://blog.gm4.co/2022/10/18/welcome/</id>
+    <published>2022-10-18T10:00:00.000Z</published>
+    <updated>2022-10-21T10:24:51.375Z</updated>
+    
+    
+    <summary type="html">Read more...</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Secrets of Gamemode 4D</title>
+    <link href="https://blog.gm4.co/2019/11/10/secrets_of_4d/"/>
+    <id>https://blog.gm4.co/2019/11/10/secrets_of_4d/</id>
+    <published>2019-11-10T12:00:00.000Z</published>
+    <updated>2022-10-21T10:24:51.375Z</updated>
+    
+    
+    <summary type="html">Gamemode 4 is (now) 4 years old. Here are some secrets from its development.</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>

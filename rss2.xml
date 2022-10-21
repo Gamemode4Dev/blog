@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gamemode 4 Blog</title>
+    <link>https://blog.gm4.co/</link>
+    
+    <image>
+      <url>https://blog.gm4.co/icon.png</url>
+      <title>Gamemode 4 Blog</title>
+      <link>https://blog.gm4.co/</link>
+    </image>
+    
+    <atom:link href="https://blog.gm4.co/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Fri, 21 Oct 2022 10:24:51 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Welcome to the Blog</title>
+      <link>https://blog.gm4.co/2022/10/18/welcome/</link>
+      <guid>https://blog.gm4.co/2022/10/18/welcome/</guid>
+      <pubDate>Tue, 18 Oct 2022 10:00:00 GMT</pubDate>
+      
+      <description>Read more...</description>
+      
+      
+      
+      
+      
+      
+      <comments>https://blog.gm4.co/2022/10/18/welcome/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Secrets of Gamemode 4D</title>
+      <link>https://blog.gm4.co/2019/11/10/secrets_of_4d/</link>
+      <guid>https://blog.gm4.co/2019/11/10/secrets_of_4d/</guid>
+      <pubDate>Sun, 10 Nov 2019 12:00:00 GMT</pubDate>
+      
+      <description>Gamemode 4 is (now) 4 years old. Here are some secrets from its development.</description>
+      
+      
+      
+      
+      
+      
+      <comments>https://blog.gm4.co/2019/11/10/secrets_of_4d/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>

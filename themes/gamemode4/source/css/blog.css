@@ -94,12 +94,6 @@ img {
 
 }
 
-@media only screen and (max-width: 1026px)  {
-    .sidebar-module {
-        display:none;
-
-    }
-}
 
 
 /*
@@ -151,6 +145,7 @@ img {
 
 .blog-header {
     padding-top: 20px;
+    vertical-align: middle
 }
 
 .blog-description {
@@ -168,8 +163,8 @@ margin-right: -30;
 
 .blog-header-image {
  order:0;
- height: 60px;
- width: 60px;
+ max-width: 10%;
+ max-height:auto;
  margin: 10px;
  display:block;
  float:left;
@@ -177,7 +172,6 @@ margin-right: -30;
 }
 
 .blog-title {
-    margin-bottom: 2;
     font-size: 60px;
     font-weight: normal;
     order: 10;
@@ -187,6 +181,7 @@ margin-right: -30;
 
 .header-flex {
     display:flex;
+    align-items:center;
     justify-content:start;
     flex-direction: row;
     vertical-align: middle;
@@ -302,3 +297,27 @@ hr.solid {
 p.footer-small {
     font-size: 0.7em;
   }
+
+
+/*  
+ Logic for hiding parts based on screen size
+*/
+
+@media only screen and (max-width: 950px)  {
+    .sidebar-module {
+        display:none;
+
+    }
+
+    .blog-title {
+        font-size: 35px;
+        position:relative;
+        padding-top:15px;
+        text-align:center;
+
+    }
+    .blog-header {
+
+        vertical-align: middle
+    }
+}

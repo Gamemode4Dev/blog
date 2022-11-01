@@ -119,14 +119,18 @@
 <li><a href="#welcome">Welcome</a><ul>
 <li><a href="#branding-refresh--blog">Branding Refresh &amp; Blog</a><ul>
 <li><a href="#blog">Blog</a></li>
-<li><a href="#tag-lines">Tag Lines</a></li>
+<li><a href="#tag-line">Tag Line</a></li>
 <li><a href="#a-new-thumbnail-style">A new thumbnail style</a></li>
 <li><a href="#wiki-changes">Wiki Changes</a></li>
 </ul>
 </li>
 <li><a href="#github">GitHub</a><ul>
 <li><a href="#this-blog--linktree">This Blog &amp; LinkTree</a></li>
-<li><a href="#module-changes">Module Changes</a></li>
+<li><a href="#datapack-changes">Datapack Changes</a><ul>
+<li><a href="#feature-changes">Feature Changes</a></li>
+<li><a href="#technical-changes">Technical Changes</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#other-social-channels">Other Social Channels</a><ul>
@@ -143,11 +147,11 @@
 <li>Longer features on parts of the project</li>
 <li>Changelogs, usually tied to a Minecraft Update</li>
 </ul>
-<h3 id="Tag-Lines"><a href="#Tag-Lines" class="headerlink" title="Tag Lines"></a>Tag Lines</h3><p>Since the founding of Gamemode 4, we have been using the tagline:</p>
+<h3 id="Tag-Line"><a href="#Tag-Line" class="headerlink" title="Tag Line"></a>Tag Line</h3><p>Since the founding of Gamemode 4, we have been using the tag line:</p>
 <blockquote>
 <p>No Mods, Just Modules</p>
 </blockquote>
-<p>Since the move <em>away</em> from command blocks ,in 1.13, towards datapacks, it did not make much sense. We are now moving to use:</p>
+<p>Since the move away from command blocks towards datapacks the use of the word Modules did not make much sense anymore. We are now going to use: </p>
 <blockquote>
 <p>Creating <em>magic</em> using Datapacks</p>
 </blockquote>
@@ -159,18 +163,14 @@
 <p><img src="/images/October-Update/newwikipage.jpg" alt="Wiki Page Change"></p>
 <h2 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h2><h3 id="This-Blog-amp-LinkTree"><a href="#This-Blog-amp-LinkTree" class="headerlink" title="This Blog &amp; LinkTree"></a>This Blog &amp; LinkTree</h3><p>This <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/blog">blog</a> and our <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/LinkTree">LinkTree</a> can be viewed on GitHub.</p>
 <p>We’d happily accept contributions&#x2F;fixes. Even better, if it is one of the issues for feature requests that we have created!</p>
-<h3 id="Module-Changes"><a href="#Module-Changes" class="headerlink" title="Module Changes"></a>Module Changes</h3><p>These have been the headline changes within the <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks">datapacks repository on GitHub</a></p>
-<ul>
-<li>BPR: <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/ae4f71bfe785ba725861564583f74f3d145c6900">Images&#x2F;GIFs in ReadMes should work properly. This will allow better publishing with other sites, such as a Smithed.</a></li>
-<li>Epyon: <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/78232fb20ca254db7f67c5bcdb06185e976201e9">Mob curing now uses the Gamemode 4 library “lib_trades” at the correct version.</a></li>
-<li>Bloo: Aborenda Changes<ul>
+<h3 id="Datapack-Changes"><a href="#Datapack-Changes" class="headerlink" title="Datapack Changes"></a>Datapack Changes</h3><p>These have been the headline changes within the <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks">datapacks repository on GitHub</a></p>
+<h4 id="Feature-Changes"><a href="#Feature-Changes" class="headerlink" title="Feature Changes"></a>Feature Changes</h4><ul>
+<li>Bloo: Aborenda Tweaks<ul>
 <li><a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/35dc03885db7606415fd112ef801359598a5be91">Support for unbreaking and efficiency at every level was added</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/35dc03885db7606415fd112ef801359598a5be91">Breaking speed was tweaked</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/352b14c729cd627d01216ee577edab47fdfa8451">Can now break mangrove</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/352b14c729cd627d01216ee577edab47fdfa8451">Aborenda can now break mangrove trees</a></li>
 </ul>
 </li>
 <li>Epyon: Witches cured using <a target="_blank" rel="noopener" href="https://gm4.co/modules/mob-curing">Mob Curing</a> <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/09ff7c575ab3e211a28f005b62716199aa5e9b1d">should now receive trades properly</a></li>
-<li>Bloo &amp; BPR: <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/d02b3e7a86881bc3444473ed48b92fd11274750d">Fix a bug where hopper minecarts could pick up items that it should not be able to</a></li>
 <li>Thanathor &amp; Bloo - <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/fe6f53023a866e598df5be47231ba893d66180e8">Tweaks to combat expanded</a><ul>
 <li>Mobs do less damage. This was dropped from 7.5 to 5</li>
 <li>Spawning chances of specific mobs changed (see PR for specifics)</li>
@@ -184,7 +184,12 @@
 <li>Thanathor - <a target="_blank" rel="noopener" href="https://gm4.co/modules/animi-shamir">Animi Shamir</a> <a target="_blank" rel="noopener" href="https://gm4.co/modules/animi-shamir">now works on the recovery compass.</a></li>
 <li>Epyon - <a target="_blank" rel="noopener" href="https://gm4.co/modules/lumos-shamir">Lumos Shamir</a> <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/50f191e99a053499184cb6145d848384172dfd67">now wont place torches in water</a></li>
 </ul>
-<h2 id="Other-Social-Channels"><a href="#Other-Social-Channels" class="headerlink" title="Other Social Channels"></a>Other Social Channels</h2><h3 id="YouTube-Short"><a href="#YouTube-Short" class="headerlink" title="YouTube Short"></a>YouTube Short</h3><p>We have started a new series of YouTube Shorts. focusing on specific shamirs (Gamemode 4’s answer to more expansive enchantments). The first one is on <a target="_blank" rel="noopener" href="https://wiki.gm4.co/wiki/Metallurgy/Defuse_Shamir">Defuse</a></p>
+<h4 id="Technical-Changes"><a href="#Technical-Changes" class="headerlink" title="Technical Changes"></a>Technical Changes</h4><ul>
+<li>Epyon: <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/78232fb20ca254db7f67c5bcdb06185e976201e9">Mob curing now uses the Gamemode 4 library “lib_trades” at the correct version.</a></li>
+<li>BPR: <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/ae4f71bfe785ba725861564583f74f3d145c6900">Images&#x2F;GIFs in ReadMes should work properly. This will allow better publishing with other sites, such as a Smithed.</a></li>
+<li>Bloo &amp; BPR: <a target="_blank" rel="noopener" href="https://github.com/Gamemode4Dev/GM4_Datapacks/commit/d02b3e7a86881bc3444473ed48b92fd11274750d">Fix a bug where hopper minecarts could pick up items that it should not be able to</a></li>
+</ul>
+<h2 id="Other-Social-Channels"><a href="#Other-Social-Channels" class="headerlink" title="Other Social Channels"></a>Other Social Channels</h2><h3 id="YouTube-Short"><a href="#YouTube-Short" class="headerlink" title="YouTube Short"></a>YouTube Short</h3><p>We have started a new series of YouTube Shorts. focusing on specific shamirs (Gamemode 4’s answer to more expansive enchantments). The first one is on <a target="_blank" rel="noopener" href="https://wiki.gm4.co/wiki/Metallurgy/Defuse_Shamir">Defuse</a>. You can watch it below.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VpejRJbGZiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 

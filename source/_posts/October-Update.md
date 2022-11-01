@@ -53,7 +53,7 @@ The front page of the [wiki](https://wiki.gm4.co) has had a update. Hopefully th
 
 As always, we are looking for contributors to help keep things up to date. Ask in `#wiki-chat` on Discord for more info.
 
-![Wiki Page Change](images/October-Update/New%20Wiki%20Page.jpg)
+![Wiki Page Change](images/October-Update/newwikipage.jpg)
 
 ## GitHub
 

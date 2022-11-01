@@ -76,14 +76,8 @@ These have been the headline changes within the [datapacks repository on GitHub]
   - [Support for unbreaking and efficiency at every level was added](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/35dc03885db7606415fd112ef801359598a5be91)
   - [Aborenda can now break mangrove trees](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/352b14c729cd627d01216ee577edab47fdfa8451)
 - Epyon: Witches cured using [Mob Curing](https://gm4.co/modules/mob-curing) [should now receive trades properly](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/09ff7c575ab3e211a28f005b62716199aa5e9b1d)
-- Thanathor & Bloo - [Tweaks to combat expanded](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/fe6f53023a866e598df5be47231ba893d66180e8)
-  - Mobs do less damage. This was dropped from 7.5 to 5
-  - Spawning chances of specific mobs changed (see PR for specifics)
-  - Devouring comes with both curses now
-  - Custodians now show when they have a resistance aura
-  - *There are lots more tweaks in the PR -- please read it*
-  - [Bug fix where damage was not correctly calculated](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/4ef60a8187b136d211f54f23a4ed29d990590963)
-  - [Wandering traders now despawn after 40 mins](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/4ef60a8187b136d211f54f23a4ed29d990590963)
+- Thanathor & Bloo - [Tweaks to BETA: Combat Expanded Module](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/fe6f53023a866e598df5be47231ba893d66180e8)
+    - **Please note, this datapack is still in BETA. It is being actively change. Feedback would be welcomed.**
 - Thanathor - [Animi Shamir](https://gm4.co/modules/animi-shamir) [now works on the recovery compass.](https://gm4.co/modules/animi-shamir)
 - Epyon - [Lumos Shamir](https://gm4.co/modules/lumos-shamir) [now wont place torches in water](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/50f191e99a053499184cb6145d848384172dfd67)
 

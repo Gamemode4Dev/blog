@@ -75,11 +75,11 @@ These have been the headline changes within the [datapacks repository on GitHub]
 - Bloo: Aborenda Tweaks
   - [Support for unbreaking and efficiency at every level was added](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/35dc03885db7606415fd112ef801359598a5be91)
   - [Aborenda can now break mangrove trees](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/352b14c729cd627d01216ee577edab47fdfa8451)
-- Epyon: Witches cured using [Mob Curing](https://gm4.co/modules/mob-curing) [should now receive trades properly](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/09ff7c575ab3e211a28f005b62716199aa5e9b1d)
+- Epyon: Witches cured using [Mob Curing](https://gm4.co/modules/mob-curing) should now [receive trades properly](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/09ff7c575ab3e211a28f005b62716199aa5e9b1d)
 - Thanathor & Bloo - [Tweaks to BETA: Combat Expanded Module](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/fe6f53023a866e598df5be47231ba893d66180e8)
     - **Please note, this datapack is still in BETA. It is being actively change. Feedback would be welcomed.**
-- Thanathor - [Animi Shamir](https://gm4.co/modules/animi-shamir) [now works on the recovery compass.](https://gm4.co/modules/animi-shamir)
-- Epyon - [Lumos Shamir](https://gm4.co/modules/lumos-shamir) [now wont place torches in water](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/50f191e99a053499184cb6145d848384172dfd67)
+- Thanathor - [Animi Shamir](https://gm4.co/modules/animi-shamir) now [works on the recovery compass.](https://gm4.co/modules/animi-shamir)
+- Epyon - [Lumos Shamir](https://gm4.co/modules/lumos-shamir) now [wont place torches in water](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/50f191e99a053499184cb6145d848384172dfd67)
 
 #### Technical Changes
 - Epyon: [Mob curing now uses the Gamemode 4 library "lib_trades" at the correct version.](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/78232fb20ca254db7f67c5bcdb06185e976201e9)

@@ -13,12 +13,14 @@ Welcome to the October Update! Here is a run down of major changes within the Ga
 - [Welcome](#welcome)
   - [Branding Refresh & Blog](#branding-refresh--blog)
     - [Blog](#blog)
-    - [Tag Lines](#tag-lines)
+    - [Tag Line](#tag-line)
     - [A new thumbnail style](#a-new-thumbnail-style)
     - [Wiki Changes](#wiki-changes)
   - [GitHub](#github)
     - [This Blog & LinkTree](#this-blog--linktree)
-    - [Module Changes](#module-changes)
+    - [Datapack Changes](#datapack-changes)
+      - [Feature Changes](#feature-changes)
+      - [Technical Changes](#technical-changes)
   - [Other Social Channels](#other-social-channels)
     - [YouTube Short](#youtube-short)
 
@@ -33,13 +35,13 @@ The type of content you can expect here will be:
 - Longer features on parts of the project
 - Changelogs, usually tied to a Minecraft Update
 
-### Tag Lines
-Since the founding of Gamemode 4, we have been using the tagline:
+### Tag Line
+Since the founding of Gamemode 4, we have been using the tag line:
 > No Mods, Just Modules
 
-Since the move *away* from command blocks ,in 1.13, towards datapacks, it did not make much sense. We are now moving to use:
+Since the move away from command blocks towards datapacks the use of the word Modules did not make much sense anymore. We are now going to use: 
 > Creating *magic* using Datapacks
-
+> 
 If you spot anywhere that still seems to use the old tagline, give us a ping on [our discord!](https://gm4.co/discord)
 
 ### A new thumbnail style
@@ -64,17 +66,16 @@ This [blog](https://github.com/Gamemode4Dev/blog) and our [LinkTree](https://git
 We'd happily accept contributions/fixes. Even better, if it is one of the issues for feature requests that we have created!
 
 
-### Module Changes
+### Datapack Changes
+
 These have been the headline changes within the [datapacks repository on GitHub](https://github.com/Gamemode4Dev/GM4_Datapacks)
 
-- BPR: [Images/GIFs in ReadMes should work properly. This will allow better publishing with other sites, such as a Smithed.](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/ae4f71bfe785ba725861564583f74f3d145c6900)
-- Epyon: [Mob curing now uses the Gamemode 4 library "lib_trades" at the correct version.](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/78232fb20ca254db7f67c5bcdb06185e976201e9)
-- Bloo: Aborenda Changes
+#### Feature Changes
+
+- Bloo: Aborenda Tweaks
   - [Support for unbreaking and efficiency at every level was added](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/35dc03885db7606415fd112ef801359598a5be91)
-  - [Breaking speed was tweaked](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/35dc03885db7606415fd112ef801359598a5be91)
-  - [Can now break mangrove](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/352b14c729cd627d01216ee577edab47fdfa8451)
+  - [Aborenda can now break mangrove trees](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/352b14c729cd627d01216ee577edab47fdfa8451)
 - Epyon: Witches cured using [Mob Curing](https://gm4.co/modules/mob-curing) [should now receive trades properly](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/09ff7c575ab3e211a28f005b62716199aa5e9b1d)
-- Bloo & BPR: [Fix a bug where hopper minecarts could pick up items that it should not be able to](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/d02b3e7a86881bc3444473ed48b92fd11274750d)
 - Thanathor & Bloo - [Tweaks to combat expanded](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/fe6f53023a866e598df5be47231ba893d66180e8)
   - Mobs do less damage. This was dropped from 7.5 to 5
   - Spawning chances of specific mobs changed (see PR for specifics)
@@ -86,10 +87,15 @@ These have been the headline changes within the [datapacks repository on GitHub]
 - Thanathor - [Animi Shamir](https://gm4.co/modules/animi-shamir) [now works on the recovery compass.](https://gm4.co/modules/animi-shamir)
 - Epyon - [Lumos Shamir](https://gm4.co/modules/lumos-shamir) [now wont place torches in water](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/50f191e99a053499184cb6145d848384172dfd67)
 
+#### Technical Changes
+- Epyon: [Mob curing now uses the Gamemode 4 library "lib_trades" at the correct version.](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/78232fb20ca254db7f67c5bcdb06185e976201e9)
+- BPR: [Images/GIFs in ReadMes should work properly. This will allow better publishing with other sites, such as a Smithed.](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/ae4f71bfe785ba725861564583f74f3d145c6900)
+- Bloo & BPR: [Fix a bug where hopper minecarts could pick up items that it should not be able to](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/d02b3e7a86881bc3444473ed48b92fd11274750d)
+
 ## Other Social Channels
 
 ### YouTube Short
-We have started a new series of YouTube Shorts. focusing on specific shamirs (Gamemode 4's answer to more expansive enchantments). The first one is on [Defuse](https://wiki.gm4.co/wiki/Metallurgy/Defuse_Shamir)
+We have started a new series of YouTube Shorts. focusing on specific shamirs (Gamemode 4's answer to more expansive enchantments). The first one is on [Defuse](https://wiki.gm4.co/wiki/Metallurgy/Defuse_Shamir). You can watch it below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VpejRJbGZiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

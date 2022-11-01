@@ -15,8 +15,29 @@
     <atom:link href="https://blog.gm4.co/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 23 Oct 2022 23:00:12 GMT</pubDate>
+    <pubDate>Tue, 01 Nov 2022 17:56:44 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>October Update 2022</title>
+      <link>https://blog.gm4.co/2022/11/01/October-Update/</link>
+      <guid>https://blog.gm4.co/2022/11/01/October-Update/</guid>
+      <pubDate>Tue, 01 Nov 2022 12:41:15 GMT</pubDate>
+      
+      <description>Here&#39;s what has changed in the project in October 2022</description>
+      
+      
+      
+      
+      
+      <category domain="https://blog.gm4.co/tags/all/">all</category>
+      
+      <category domain="https://blog.gm4.co/tags/updates/">updates</category>
+      
+      
+      <comments>https://blog.gm4.co/2022/11/01/October-Update/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Welcome to the Blog</title>

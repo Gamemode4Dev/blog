@@ -3,6 +3,7 @@ title: Behind the Scenes & How We Operate
 date: 2022-11-10 15:51:47
 tags:
 author: ToffeeMax
+excerpt: What's going on and some changes that we think you should know about!
 ---
 ## A Passion Project that is turning 9!
 Gamemode 4 will be nine next year! The history of this weird, but wonderful project can be *publicly* traced back to a teaser video released by the project's founder, Sparks, in February 2014.

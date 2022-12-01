@@ -102,9 +102,9 @@ Regular players will have access to a Public Set -- but you can be extra fancy a
 
 ### Fandom
 
-The fandom is now... gone! Masses of the information on their was out of date and had been migrated to the new wiki when we moved over four years ago.
+The fandom is now... gone! Masses of the information on there was out of date and had been migrated to the [new wiki](https://wiki.gm4.co) when we moved over four years ago.
 
-An archive will be provided at some point in the future
+An archive will be provided at some point in the future.
 
 ### Our Wiki
 The wiki has seen a little love over the last few weeks!

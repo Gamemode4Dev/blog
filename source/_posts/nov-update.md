@@ -38,8 +38,8 @@ You can view the PR [#786](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/
 - BPR: Autocrafters can now use full planks instead of stairs within the structure [#822](https://github.com/Gamemode4Dev/GM4_Datapacks/pull/822)
 - Epyon: Forterra update to 1.19 [#804](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/5cef7620c60842f22de514183fd9b2dda8754dd3)
     - Now works for deepslate
-    - Drop rate from stone has decrease. The weight has gone from 80 -> 50
-    - Fortune now has an effect!
+    - Now extends to the bottom of the world, and the rates have been modified to reflect the post-caves-n'-cliff
+    - Fortune now has an effect on the drop rate! 
 - Epyon: Gemini now works with Allays and Frogs. Gemini should now work for Turtles [#851](https://github.com/Gamemode4Dev/GM4_Datapacks/commit/c6bee77cff2ce4ea232a4ee98fde14ef4085b6d5)
 - BPR/Epyon/Bloo: Forming Press changes [#819](https://github.com/Gamemode4Dev/GM4_Datapacks/pull/819)
     - You can now mix logs to make charcoal blocks

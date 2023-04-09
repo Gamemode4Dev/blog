@@ -6,7 +6,7 @@
   <link href="https://blog.gm4.co/atom.xml" rel="self"/>
   
   <link href="https://blog.gm4.co/"/>
-  <updated>2023-04-09T16:28:42.089Z</updated>
+  <updated>2023-04-09T17:03:04.790Z</updated>
   <id>https://blog.gm4.co/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Mid-February 2023 Project Update</title>
+    <link href="https://blog.gm4.co/2023/04/09/feb-update-23/"/>
+    <id>https://blog.gm4.co/2023/04/09/feb-update-23/</id>
+    <published>2023-04-09T16:34:26.000Z</published>
+    <updated>2023-04-09T17:03:04.790Z</updated>
+    
+    
+    <summary type="html">An update on the state of the project from December 2022 to February 2023</summary>
+    
+    
+    
+    
+    <category term="all" scheme="https://blog.gm4.co/tags/all/"/>
+    
+    <category term="updates" scheme="https://blog.gm4.co/tags/updates/"/>
+    
+  </entry>
+  
+  <entry>
     <title>November Update</title>
     <link href="https://blog.gm4.co/2022/11/29/nov-update/"/>
     <id>https://blog.gm4.co/2022/11/29/nov-update/</id>
     <published>2022-11-29T21:37:45.000Z</published>
-    <updated>2023-04-09T16:28:42.089Z</updated>
+    <updated>2023-04-09T17:03:04.790Z</updated>
     
     
     <summary type="html">Here is what happened in the project in November!</summary>
@@ -40,7 +59,7 @@
     <link href="https://blog.gm4.co/2022/11/10/project-changes-2022-update/"/>
     <id>https://blog.gm4.co/2022/11/10/project-changes-2022-update/</id>
     <published>2022-11-10T15:51:47.000Z</published>
-    <updated>2023-04-09T16:28:42.089Z</updated>
+    <updated>2023-04-09T17:03:04.790Z</updated>
     
     
     <summary type="html">What&#39;s going on and some changes that we think you should know about!</summary>
@@ -55,7 +74,7 @@
     <link href="https://blog.gm4.co/2022/11/01/October-Update/"/>
     <id>https://blog.gm4.co/2022/11/01/October-Update/</id>
     <published>2022-11-01T12:41:15.000Z</published>
-    <updated>2023-04-09T16:28:42.089Z</updated>
+    <updated>2023-04-09T17:03:04.790Z</updated>
     
     
     <summary type="html">Here&#39;s what has changed in the project in October 2022</summary>
@@ -74,7 +93,7 @@
     <link href="https://blog.gm4.co/2022/10/18/welcome/"/>
     <id>https://blog.gm4.co/2022/10/18/welcome/</id>
     <published>2022-10-18T10:00:00.000Z</published>
-    <updated>2023-04-09T16:28:42.089Z</updated>
+    <updated>2023-04-09T17:03:04.790Z</updated>
     
     
     <summary type="html">Read more...</summary>
@@ -89,7 +108,7 @@
     <link href="https://blog.gm4.co/2019/11/10/secrets_of_4d/"/>
     <id>https://blog.gm4.co/2019/11/10/secrets_of_4d/</id>
     <published>2019-11-10T12:00:00.000Z</published>
-    <updated>2023-04-09T16:28:42.089Z</updated>
+    <updated>2023-04-09T17:03:04.790Z</updated>
     
     
     <summary type="html">Gamemode 4 is (now) 4 years old. Here are some secrets from its development.</summary>

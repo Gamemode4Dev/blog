@@ -11,13 +11,13 @@ author: ToffeeMax
 Welcome to the October Update! Here is a run down of major changes within the Gamemode 4 Project:
 
 - [Welcome](#welcome)
-  - [Branding Refresh & Blog](#branding-refresh--blog)
+  - [Branding Refresh \& Blog](#branding-refresh--blog)
     - [Blog](#blog)
     - [Tag Line](#tag-line)
     - [A new thumbnail style](#a-new-thumbnail-style)
     - [Wiki Changes](#wiki-changes)
   - [GitHub](#github)
-    - [This Blog & LinkTree](#this-blog--linktree)
+    - [This Blog \& LinkTree](#this-blog--linktree)
     - [Datapack Changes](#datapack-changes)
       - [Feature Changes](#feature-changes)
       - [Technical Changes](#technical-changes)

@@ -1,5 +1,5 @@
 ---
-title: November Update
+title: November 2022 Project Update
 tags:
   - all
   - updates

@@ -5,7 +5,8 @@ tags:
   - updates
 date: 2023-04-09 17:34:26
 excerpt: An update on the state of the project from December 2022 to February 2023
-author: ToffeeMax
+authors:
+  - toffeemax
 ---
 
 > "Blow the dust off after christmas, loosening a few belt holes and running off that gained project weight" - ToffeeMax

@@ -1,0 +1,24 @@
+<div class="author-banner">
+    <hr class="rounded">
+    <% let post_obj = item %>
+    <% if (post_author(post_obj)){ %>
+        <% if (item.authors.length > 1){ %>
+            <div class="author-header"><h4>Authors</h4></div>
+        <% } else if (item.authors.length == 1){ %>
+            <div class="author-header"><h4>Author</h4></div>
+        <% } %>
+        <% item.author.forEach(function(au) { %>
+            <div class="author-details">
+                <div class="author-name">
+                    <%=au.name %>
+                </div>
+                <div class="author-meta">
+                    <%=au.about %>            
+                </div>
+                
+                
+            </div>
+        <% }); %>
+        <hr class="rounded">
+    <% } %>
+</div>

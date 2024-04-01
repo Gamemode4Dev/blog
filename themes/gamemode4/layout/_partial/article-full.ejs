@@ -12,21 +12,9 @@
     <p class="blog-post-meta">
        
     </p>
+    <%- partial('_partial/author',{item: item}) %>
 
-    <p class="blog-post-meta">
-        <% if(item.author) { %>
-            by <%- item.author %>
-            <br>
-        <% } %>
-      
-        <i><%= item.date.format(config.date_format) %></i>
-        <% if (item.changed) { %>
-            <br>
-            <i> Updated on <%- item.changed %></i>
-
-
-        <% } %>
-     </p>
+  
 
 
    

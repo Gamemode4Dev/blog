@@ -247,7 +247,7 @@ hr.solid {
 }
 .blog-post-title {
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 30px;
     position:relative;
 }
 .blog-post-meta {
@@ -264,6 +264,22 @@ hr.solid {
 .code {
     display: block;
     overflow-x: auto;
+}
+
+.author-header {
+    font-size:10px;
+    margin-bottom: 5px;
+
+}
+
+.author-name {
+    font-size: 15px;
+
+}
+
+.author-meta {
+    font-size: 15px;
+    font-style:italic;
 }
 
 /*
@@ -322,3 +338,11 @@ p.footer-small {
         vertical-align: middle
     }
 }
+
+
+hr.rounded {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-top: 2px solid #bbb;
+    border-radius: 5px;
+  }

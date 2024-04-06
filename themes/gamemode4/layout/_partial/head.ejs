@@ -12,7 +12,7 @@
     </script>
     <meta charset="utf-8">
     <meta https-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     
     <meta name="description" content="<%- page.title %>">
     <meta name="author" content="Gamemode 4">
@@ -34,8 +34,16 @@
     <meta property="og:description" content="<%- page.excerpt %>"/>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/ss2?family=Montserrat">
+
+    <% if(page.title) { %>
     
-    <title><%- page.title %> | Gamemode 4 Blog</title>
+        <title><%- page.title %>| Gamemode 4 Blog</title>
+
+    <% } else { %>
+
+        <title>Gamemode 4 Blog</title>
+
+    <% } %>
 
     <!-- Bootstrap core CSS -->
     <%- css('bootstrap/css/bootstrap.min.css') %>

@@ -172,6 +172,7 @@ margin-right: -30;
 }
 
 .blog-title {
+    margin-top:6px;
     font-size: 60px;
     font-weight: normal;
     order: 10;
@@ -246,12 +247,13 @@ hr.solid {
     margin-bottom: 25px;
 }
 .blog-post-title {
+   
     margin-bottom: 5px;
     font-size: 30px;
     position:relative;
 }
 .blog-post-meta {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #999;
     font-size:15px;
 }

@@ -343,8 +343,8 @@ p.footer-small {
 
 
 hr.rounded {
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-top: 2px solid #bbb;
     border-radius: 5px;
   }

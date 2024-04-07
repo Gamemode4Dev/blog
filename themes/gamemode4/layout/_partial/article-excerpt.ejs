@@ -4,10 +4,12 @@
     <!-- Title -->
      <a href="<%- config.root %><%- item.path %>"   >
      <h3 class="blog-post-title">
-       
             <%- item.title %>
-       
     </h3>
+    <h4 class="blog-post-date">
+        <%= date(item.date, "MMMM DD, YYYY") %>
+
+    </h4>
     </a>
 
 
